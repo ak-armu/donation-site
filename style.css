@@ -13,21 +13,22 @@ body{
     
 }
 .head-button{
-    color: azure;
+    color: black;
     text-decoration: none;
     padding: 15px 30px;
-    background-color: gray;
-    border: 5px solid darkblue ;
+    background-color: lightblue;
+    border: 2px solid red ;
     border-radius: 10px;
 }
 
 .header-section{
     background-image: url(images/donation.png);
     width: 100%;
-    height: 600px;
+    height: 550px;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
+    margin-top: 0%;
 }
 
 .amount-section{
@@ -50,7 +51,7 @@ body{
     padding: 25px;
     height: 50px;
     background-color: lightblue;
-    border: 5px solid green;
+    border: 5px solid red;
 
 }
 hr{
@@ -101,6 +102,34 @@ hr{
     border: 15px solid white;
 }
 
+.lets-start{
+    width: 100%;
+    height: 300px;
+    background-color: lightskyblue;
+    
+}
+.heading{
+    color: whitesmoke;
+    text-align: left;
+    padding: 10px 30px;
+}
+.list{
+    display: flex;
+}
+.circle-style{
+    list-style-type: circle;
+    padding: 5px 50px;
+}
+.start-button{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: pink;
+    border: 1px solid red;
+    border-radius: 10px;
+    margin-left: 30px;
+}
 .update-section{
     width: 100%;
     text-align: center;
@@ -113,10 +142,15 @@ hr{
     
 }
 .email-box{
-    padding: 20px 50px;
+    padding: 50px 70px;
 }
-
+.email-input{
+    height: 30px;
+    margin-right: -4px;
+    border: 2px solid pink;
+}
 .subscribe{
+    padding: 7px 20px;
     text-decoration: none;
     background-color: pink;
 }
