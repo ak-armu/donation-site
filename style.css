@@ -1,0 +1,136 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    margin: 0%;
+}
+
+.header-text{
+    text-align: center;
+    color: aliceblue;
+}
+.headline{
+    font-size:45px;
+    padding-top: 150px;
+    
+}
+.head-button{
+    color: azure;
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: gray;
+    border: 5px solid darkblue ;
+    border-radius: 10px;
+}
+
+.header-section{
+    background-image: url(images/donation.png);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+
+.amount-section{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.mid-part{
+    display: flex;
+    width: 15%;
+    padding: 10px 680px;
+}
+.amount{
+    padding: 25px;
+    width: 50px;
+    height: 50px;
+    background-color: gainsboro;
+    border: 5px solid white;
+}
+.amount-marked{
+    padding: 25px;
+    height: 50px;
+    background-color: lightblue;
+    border: 5px solid green;
+
+}
+hr{
+    width: 550px;
+}
+
+.planning-section{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.donate-plan{
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.planning-card{
+    display: flex;
+    padding:0px 500px;
+}
+.card-image{
+    width: 50px;
+    height: 50px;
+}
+
+.card-one{
+    width: 30%;
+    padding: 30px;
+    text-align: justify;
+    background-color: beige;
+    border: 15px solid white;
+}
+
+.card-two{
+    width: 30%;
+    padding: 30px;
+    text-align: justify;
+    background-color:lightblue;
+    border: 15px solid white;
+}
+
+
+.card-three{
+    width: 30%; 
+    padding: 30px;
+    text-align: justify;
+    background-color: pink;
+    border: 15px solid white;
+}
+
+.update-section{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.subscription{
+    background-color: lightblue;
+    width: 50%;
+    margin-left: 500px;
+    
+}
+.email-box{
+    padding: 20px 50px;
+}
+
+.subscribe{
+    text-decoration: none;
+    background-color: pink;
+}
+
+.footer-section{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+}
+.footer-text{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'The Nautigal', cursive;
+    font-size:30px;
+}
+
